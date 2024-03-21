@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="decodstyle.css">
+    <title class="titulo">Decodificador de textos </title>
+</head>
+
+<body>
+    <header>
+        <img class="animation_binary" scr="animation_binary" ;>
+
+
+        <h1 class="titulo"> Decodificador de textos </h1>
+    </header>
+    <main>
+        <section class="quadro">
+            <div class="quadro__Esquerda">
+                <textarea class="input" id="input-text" cols="30" rows="10"
+                    placeholder="Digite seu texto..."></textarea>
+                <p class="quadro_Esquerda_Informacoes">Somente letras minusculas e sem acentuacao</p>
+                <div class="quadro_Esquerda_Botoes">
+                    <div class="botoes">
+                        <button id="cript" onclick="handleCriptText()">Criptografar</button>
+                        <button id="decript" onclick="handleDecriptText()">Descriptografar</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="quadro__Direita">
+                <textarea class="output" placeholder="O texto sairá aqui." id="output-text" cols="30" rows="10"
+                    readonly></textarea>
+                    <div class="quadro_Direita_Botoes">
+                        <div class="botoes">
+                            <button id="copy" onclick="copyText()">Copiar</button>
+                            <button id="transfer" onclick="transferText()">Transferir texto</button>
+                        </div>
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>© Desenvolvido por Ivan Moyses Ramos - Iniciante em Programação
+            One
+        </p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

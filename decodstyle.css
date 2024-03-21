@@ -1,0 +1,44 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ffffff;
+    background-image: url(animation_binary.gif);
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+h1 {    
+    text-align: center;
+}
+
+main {
+    background-position: center;
+}
+
+.titulo
+{
+    color:#ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100px;
+}
+
+.rodape
+{
+    height: 60px;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.quadro_Esquerda_Informacoes
+{
+    color:#ffffff;
+}
+
+.botoes {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
